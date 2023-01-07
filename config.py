@@ -16,7 +16,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://mdisk:mdisk@cluster0.0ycuxow.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "2120922739")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(2120922739)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001864689968")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "new_movies_download_backup") # For Force Subscription
